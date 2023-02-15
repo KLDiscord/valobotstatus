@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+<!----favicon-->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="https://media.discordapp.net/attachments/1045603394271838218/1045979142623080478/image-removebg-preview.png">
+<meta property="og:title" content="발로봇 웹사이트 상태">
+<meta property="og:description" content="발로봇의 웹사이트 상태를 확인하세요">
+<meta property="og:url" content="https://status.valobot.netlify.app">
+<meta property="og:image" content="https://media.discordapp.net/attachments/1045603394271838218/1045979142623080478/image-removebg-preview.png">
+<meta content="#0077ff" data-react-helmet="true" name="theme-color">
+
+
+<link rel="manifest" href="favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+<!----favicon end-->
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Status Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="favicon" href="favicon.png">
+
+  </head>
+  <body >
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-warning">
+      <a class="navbar-brand" href="https://status.valobot.netlify.app/index.html">발로봇 웹사이트 상태</a>
+      <button id="navbtn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <!--<a class="nav-link" href="https://status.valobot.netlify.app/bot.html">발로봇 봇 상태 보러가기<span class="sr-only">(current)</span></a>--> 
+          </li>
+          </li>
+
+         
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              더보기
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://valobot.netlify.app">발로봇 사이트</a>
+              <a class="dropdown-item" href="https://valobot.netlify.app/discord">발로봇 디스코드</a>
+              <a class="dropdown-item" href="https://valobot.netlify.app/invite">발로봇을 초대하기</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="credits.html">크레딧</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">발로봇 봇 상태 보러가기 - 현재 개발중</a>
+          </li> 
+        </ul>
+        <img onclick="night();" src="favicon/night-mode.svg" title="다크/라이트 모드" id="btn">
+        &nbsp;
+
+      </div>
+    </nav>
+
+
+<br>
+
+<div id="islive" style="display: none;"></div>
+<div id="ServerStatus" style="display: none;"></div>
+
+ 
+
+  <section class="container-fluid bg">
+		<section class="row justify-content-center">
+			<section class="col-12 col-sm-10 col-md-6">
+
+<div id="loader"></div>
+
+			
+      
+			</section>
+    
+			
+		</section>
+		<br>
+    
+	</section>
+
+
+
+<br><br>
+
+ 
+
+
+ 
+
+<!----footer-->
+
+<footer id="ftr" class="footer bg-warning py-3">
+  <div class="container">
+    <span class="black">All rights reserved to Team DoubleEight 2023<span>
+    <a class="black ">아직 베타 버전입니다. 불안정 할 수 있습니다. </a>
+    <a class="black " href="https://valobot.netlify.app/discord">잘못된 정보나 오류 제보는 디스코드에서</a>
+  </div>
+</footer>
+
+<!---footer-->
+<script src="JS/main.js" type="text/javascript" ></script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>

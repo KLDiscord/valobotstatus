@@ -1,0 +1,57 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+navbar-back-yellow{
+    background-color: #29c5f9;
+}
+
+.logged-in {
+    color: green;
+  }
+  
+  .logged-out {
+    color: red;
+  }
+  footer a{
+      color: black;
+      text-decoration: underline;
+  }
+  
+#ftr{
+    position: fixed ;
+    bottom: 0;
+    width: 100%;
+}
+  .dark-body
+  {
+      background-color: black;
+      color: white;
+  }
+  .dark-card{
+      background-color: rgb(48, 44, 44);
+  }
+  .dark-btn
+  {
+      background-color: black;
+      color: white;
+  }
+  .dark-nav{
+    background-color: rgb(48, 44, 44) !important;
+color: white !important;
+
+  }
+  .dark-nav a{
+color: white !important;
+
+  }
+  .dark-nav-btn
+  {
+      background-color: white;
+  }
+  .dark-card-header
+  {
+      background-color:  rgb(34, 27, 27);
+  }
+  .dark-section{
+      color: white !important;
+  }
