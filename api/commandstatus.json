@@ -17,7 +17,7 @@
   "battlepass" : "working",
   "battlepassmsg" : "**/배틀패스**명령어는 현재 정상작동 중입니다",
   
-  "bundlesearch" : "error2",
+  "bundlesearch" : "working",
   "bundlesearchmsg" : "**/번들찾기** 명령어에서 2.0이 포함된 번들은 검색이 불가능합니다",
   
   "notifyadd" : "working",
