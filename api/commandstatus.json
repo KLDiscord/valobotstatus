@@ -3,7 +3,7 @@
   "storemsg" : "**/상점** 명령어는 현재 정상작동 중입니다",
   
   "nightmarket" : "error",
-  "nightmarketmsg" : "**야시장이 끝났습니다.** 다음 야시장때 다시 만나요!",
+  "nightmarketmsg" : "**야시장이 끝났습니다.**\n다음 야시장때 다시 만나요!",
   
   "login" : "working",
   "loginmsg" : "**/로그인** 명령어는 현재 정상작동 중입니다",
